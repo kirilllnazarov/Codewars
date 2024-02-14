@@ -6,3 +6,5 @@ function removeChar(str){
        }
      return result;
    };
+   
+console.log(removeChar('Hello world!'));
