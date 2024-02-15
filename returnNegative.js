@@ -10,3 +10,5 @@ function makeNegative(num) {
       return num
     }
   }
+
+console.log(makeNegative(676.6575))
