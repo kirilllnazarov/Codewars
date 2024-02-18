@@ -5,3 +5,5 @@ function areYouPlayingBanjo(name) {
     }
     return `${name} ${'does not play banjo'}`;
   }
+
+  console.log(areYouPlayingBanjo('Ross'));
