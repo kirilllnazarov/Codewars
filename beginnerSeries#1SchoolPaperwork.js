@@ -6,3 +6,5 @@ function paperwork(n, m) {
       return n * m
     }
   }
+
+  console.log(paperwork(5, 0));
