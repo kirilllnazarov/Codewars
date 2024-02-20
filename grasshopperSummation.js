@@ -5,3 +5,6 @@ var summation = function (num) {
       }
       return result;
     }
+
+    //second solution
+    const summation = num => (1 + num) * num / 2;
