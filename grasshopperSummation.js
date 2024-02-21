@@ -8,3 +8,4 @@ var summation = function (num) {
 
     //second solution
     const summation = num => (1 + num) * num / 2;
+    
