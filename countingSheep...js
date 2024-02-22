@@ -16,3 +16,8 @@ function countSheeps(sheep) {
       }
       return resultSheep;
     }
+
+    //second solution
+    function countSheeps(sheep) {
+        return sheep.filter(Boolean).length;
+       }
