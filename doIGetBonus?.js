@@ -6,3 +6,6 @@ unction bonusTime(salary, bonus) {
       return `£${salary}`
       }
      }
+
+     //second solution
+     const bonusTime = (salary, bonus) => bonus ? `£${salary * 10}` : `£${salary}`
