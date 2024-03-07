@@ -7,3 +7,8 @@ function solution(string) {
   });
   return string.join("");
 }
+
+//second solution
+function solution(string) {
+  return string.replace(/([A-Z])/g, " $1");
+}
