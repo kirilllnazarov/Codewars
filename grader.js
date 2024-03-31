@@ -11,3 +11,5 @@ function grader(score) {
 		? "B"
 		: "A";
 }
+
+//second solution
