@@ -1,0 +1,2 @@
+String.prototype.digit = function() {
+ };
