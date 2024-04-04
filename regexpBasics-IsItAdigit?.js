@@ -1,3 +1,3 @@
-String.prototype.digit = function () {
-	return /^\d$/g.test(this);
-};
+String.prototype.digit = function() {
+    return /^\d$/g.test(this);
+ };
