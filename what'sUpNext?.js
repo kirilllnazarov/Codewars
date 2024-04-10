@@ -1,0 +1,3 @@
+function nextItem(xs, item) {
+
+  }
