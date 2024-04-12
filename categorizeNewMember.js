@@ -1,0 +1,2 @@
+function openOrSenior(data){
+  }
