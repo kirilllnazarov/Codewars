@@ -1,0 +1,2 @@
+function describeAge(age) {
+  }
