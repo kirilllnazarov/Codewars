@@ -1,1 +1,3 @@
-function noOdds( values )
+function noOdds( values ){
+
+    }
