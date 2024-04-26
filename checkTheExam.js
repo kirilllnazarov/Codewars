@@ -5,5 +5,8 @@ function checkExam(array1, array2) {
       if (array1[i] === array2[i]) {
         count += 4
       }
+       else if (array2[i] === "") {
+        count += 0
+      }
 
     }
