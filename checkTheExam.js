@@ -12,5 +12,8 @@ function checkExam(array1, array2) {
         count --
       }
     }
+    if (count < 0) {
+        return 0;
+      }
 
     }
