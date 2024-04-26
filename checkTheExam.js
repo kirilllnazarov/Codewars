@@ -8,5 +8,9 @@ function checkExam(array1, array2) {
        else if (array2[i] === "") {
         count += 0
       }
+     else if (array1[i] !== array2[i]) {
+        count --
+      }
+    }
 
     }
