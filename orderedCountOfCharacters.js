@@ -1,0 +1,3 @@
+let orderedCount = function (text) {
+
+  }
