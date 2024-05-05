@@ -1,1 +1,3 @@
+var number = function(array){
 
+  }
