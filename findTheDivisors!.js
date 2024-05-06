@@ -5,5 +5,5 @@ function divisors(integer) {
 			arr.push(i);
 		}
 	}
-
+	return arr.length !== 0 ? arr : `${integer} is prime`;
 }
