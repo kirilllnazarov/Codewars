@@ -9,7 +9,7 @@ var capitals = function (word) {
 };
 
 //second solution
-function capitals(word) {
+var capitals = function (word) {
 	return resultArr(word);
 }
 
