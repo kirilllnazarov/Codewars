@@ -7,3 +7,10 @@ var capitals = function (word) {
 	}
 	return resultArr;
 };
+
+//second solution
+function capitals(word) {
+	return resultArr(word);
+}
+
+
