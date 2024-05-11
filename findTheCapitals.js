@@ -13,4 +13,12 @@ function capitals(word) {
 	return resultArr(word);
 }
 
-
+function resultArr(arr) {
+	let result = [];
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] !== arr[i].toLowerCase()) {
+			result.push(i);
+		}
+	}
+	return result;
+}
