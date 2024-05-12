@@ -3,5 +3,5 @@ function sumOfMinimums(arr) {
 	for (let i = 0; i < arr.length; i++) {
 		sum += arr[i].sort((a, b) => a - b)[0];
 	}
-
+	return sum;
 }
