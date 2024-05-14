@@ -8,5 +8,8 @@ function fizzbuzz(n){
        }
        else if(i % 5 === 0) {
          arr.push("Buzz")
-     
+       } else {
+         arr.push(i)
+       }
+   
    }
