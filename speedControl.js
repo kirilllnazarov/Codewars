@@ -4,7 +4,7 @@ function gps(s, x) {
       return 0
     }
     for ( i = 0; i < x.length - 1; i++ ) { 
-
+      arr.push( ( x[i + 1] - x[i] ) * 3600 / s );
     }
 
   }
