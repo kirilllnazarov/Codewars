@@ -1,1 +1,2 @@
-
+function repeats(arr){
+  };
