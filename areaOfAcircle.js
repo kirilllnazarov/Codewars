@@ -1,3 +1,6 @@
 function circleArea(radius) {
-    if (radius <= 0) 
+    if (radius <= 0) {
+       throw Error('Error')
+    }
+  
     }
