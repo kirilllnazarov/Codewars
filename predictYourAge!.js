@@ -9,5 +9,6 @@ function predictAge(age1, age2, age3, age4, age5, age6, age7, age8) {
 function predictAge(age1, age2, age3, age4, age5, age6, age7, age8) {
 	let ages = [age1, age2, age3, age4, age5, age6, age7, age8];
 	let count = 0;
+	ages.forEach((age) => (count += age * age));
 
 }
