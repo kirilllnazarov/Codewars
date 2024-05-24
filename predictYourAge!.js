@@ -4,3 +4,5 @@ function predictAge(age1, age2, age3, age4, age5, age6, age7, age8) {
 		.reduce((a, b) => a + b);
 	return Math.floor(Math.sqrt(Age) / 2);
 }
+
+//second solution
