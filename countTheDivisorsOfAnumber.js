@@ -4,5 +4,8 @@ function getDivisorsCnt(n) {
 		divisors++;
 	}
 	for (let i = 0; i < Math.sqrt(n); i++) {
-	
+		if (n % i == 0) {
+			divisors += 2;
+		}
+	}
 }
