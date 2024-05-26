@@ -8,4 +8,5 @@ function getDivisorsCnt(n) {
 			divisors += 2;
 		}
 	}
+	return divisors;
 }
