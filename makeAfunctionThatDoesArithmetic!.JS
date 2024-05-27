@@ -5,5 +5,7 @@ function arithmetic(a, b, operator) {
 		return a - b;
 	} else if (operator === "multiply") {
 		return a * b;
-	} 
+	} else if (operator === "divide") {
+		return a / b;
+	}
 }
