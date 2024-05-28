@@ -4,5 +4,5 @@ function nbDig(n, d) {
 	for (let i = 0; i <= n; i++) {
 		count += i ** 2;
 	}
-
+	return count.match(re).length;
 }
