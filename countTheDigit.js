@@ -1,8 +1,10 @@
 function nbDig(n, d) {
-	let count = "";
-	const re = RegExp(d, "g");
+	let totalOfDigit = 0;
 	for (let i = 0; i <= n; i++) {
-		count += i ** 2;
+		totalOfDigit += (i * i)
+			.toString()
+			.split("")
+			.filter((n) => n == d).length;
 	}
-	return count.match(re).length;
+	return totalOfDigit;
 }
