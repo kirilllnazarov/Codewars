@@ -12,5 +12,5 @@ function removeUrlAnchor(url) {
 
 //second solution
 function removeUrlAnchor(url) {
-
+	return url.split("#")[0];
 }
