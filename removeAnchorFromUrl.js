@@ -6,5 +6,6 @@ function removeUrlAnchor(url) {
 		} else {
 			break;
 		}
-
+	}
+	return result;
 }
