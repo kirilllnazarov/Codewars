@@ -9,3 +9,5 @@ function removeUrlAnchor(url) {
 	}
 	return result;
 }
+
+//second solution
