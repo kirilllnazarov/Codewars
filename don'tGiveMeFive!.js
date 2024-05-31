@@ -5,5 +5,5 @@ function dontGiveMeFive(start, end) {
 			count++;
 		}
 	}
-
+	return count;
 }
