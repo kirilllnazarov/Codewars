@@ -1,3 +1,3 @@
 function gimme(triplet) {
-	return [...triplet].indexOf
+	return [...triplet].indexOf(triplet.sort
 }
