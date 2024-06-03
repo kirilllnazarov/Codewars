@@ -1,3 +1,3 @@
 function digits(n) {
-	return n.toString()
+	return n.toString().length;
 }
