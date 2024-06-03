@@ -1,3 +1,3 @@
 function digits(n) {
-	return 
+	return n
 }
