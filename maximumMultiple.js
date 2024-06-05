@@ -1,0 +1,3 @@
+function maxMultiple(divisor, bound) {
+
+}
