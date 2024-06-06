@@ -1,3 +1,3 @@
 function capitalize(s) {
-
+	return 
 }
