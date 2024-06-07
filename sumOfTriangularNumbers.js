@@ -5,5 +5,5 @@ function sumTriangularNumbers(n) {
 		sum += i * 1;
 		total += sum;
 	}
-
+	return total;
 }
