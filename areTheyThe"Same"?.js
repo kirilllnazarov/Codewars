@@ -10,5 +10,5 @@ function comp(array1, array2) {
 	array1 = sortArr(array1);
 	array2 = sortArr(array2);
 
-
+	return array1.map((el) => el ** 2).every((el, i) => el === array2[i]);
 }
