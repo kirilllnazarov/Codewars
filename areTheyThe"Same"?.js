@@ -8,5 +8,7 @@ function comp(array1, array2) {
 	}
 
 	array1 = sortArr(array1);
+	array2 = sortArr(array2);
+
 
 }
