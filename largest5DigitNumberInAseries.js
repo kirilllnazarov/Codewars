@@ -7,5 +7,5 @@ function solution(digits) {
 			answer = Number(number);
 		}
 	}
-
+	return answer;
 }
