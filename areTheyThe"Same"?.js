@@ -7,4 +7,6 @@ function comp(array1, array2) {
 		return arr.sort((a, b) => a - b);
 	}
 
+	array1 = sortArr(array1);
+
 }
