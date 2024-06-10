@@ -3,5 +3,8 @@ function mxdiflg(a1, a2) {
 		return "-1";
 	}
 	const concatArr = a1.concat(a2);
-
+	return (
+		Math.max(...concatArr.map((el) => el.length)) -
+		Math.min(...concatArr.map((el) => el.length))
+	);
 }
