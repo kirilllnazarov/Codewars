@@ -7,4 +7,5 @@ function unluckyDays(year) {
 		if (new Date(date).getDay() === 5 && new Date(date).getDate() === 13)
 			friday++;
 	}
- }
+	return friday;
+}
