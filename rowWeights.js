@@ -1,0 +1,3 @@
+function rowWeights(array) {
+
+}
