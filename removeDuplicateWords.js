@@ -7,3 +7,5 @@ function removeDuplicateWords(s) {
 	}
 	return res.join(" ");
 }
+
+//second solution
