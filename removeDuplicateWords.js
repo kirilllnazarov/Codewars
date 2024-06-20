@@ -13,12 +13,10 @@ function removeDuplicateWords(s) {
 	s = s.split(" ");
 	let result = [];
 	for (let i = 0; i < s.length; i++) {
-		for (let j = 0; j < s.length; j++) {
-			if (result.includes(s[i])) {
-				continue;
-			} else {
-				result.push(s[i]);
-			}
+		if (result.includes(s[i])) {
+			continue;
+		} else {
+			result.push(s[i]);
 		}
 	}
 	return result.join(" ");
