@@ -16,7 +16,9 @@ function removeDuplicateWords(s) {
 		for (let j = 0; j < s.length; j++) {
 			if (result.includes(s[i])) {
 				continue;
-			} 
+			} else {
+				result.push(s[i]);
+			}
 		}
 	}
 
