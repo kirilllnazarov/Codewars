@@ -11,5 +11,5 @@ function removeDuplicateWords(s) {
 //second solution
 function removeDuplicateWords(s) {
 	s = s.replace(/[' ']/gi, ",").split(",");
-
-}
+	let result = [];
+	
