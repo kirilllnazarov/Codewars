@@ -9,3 +9,6 @@ function removeDuplicateWords(s) {
 }
 
 //second solution
+function removeDuplicateWords (s) {
+
+  }
