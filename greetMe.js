@@ -1,3 +1,3 @@
 var greet = function (name) {
-	return 
+	return `Hello ${name[0].toUpperCase()}${name.slice(1).toLowerCase()}!`;
 };
