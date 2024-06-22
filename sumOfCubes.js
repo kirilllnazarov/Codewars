@@ -3,5 +3,5 @@ function sumCubes(n) {
 	for (let i = 1; i <= n; i++) {
 		sum += i * i * i;
 	}
-
+	return sum;
 }
