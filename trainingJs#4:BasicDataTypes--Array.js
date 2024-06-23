@@ -6,3 +6,7 @@ function getFirst(arr) {
 	//return the first element of arr
 	return arr[0];
 }
+function getLast(arr) {
+	//return the last element of arr
+	return arr[arr.length - 1];
+}
