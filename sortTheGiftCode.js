@@ -4,5 +4,6 @@ function sortGiftCode(code) {
 
 //second solution
 function sortGiftCode(code) {
+	let result = "";
 	
 }
