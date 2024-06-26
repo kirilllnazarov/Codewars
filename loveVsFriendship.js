@@ -7,3 +7,5 @@ function wordsToMarks(string) {
 }
 
 //second solution
+const wordsToMarks = (s) =>
+	[...s].reduce((result, el) => (result += el.charCodeAt() - 96), 0);
