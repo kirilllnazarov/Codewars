@@ -5,3 +5,5 @@ function wordsToMarks(string) {
 	}
 	return letterSum;
 }
+
+//second solution
