@@ -3,5 +3,5 @@ function wordsToMarks(string) {
 	for (let i = 0; i < string.length; i++) {
 		letterSum = letterSum + string.charCodeAt(i) - 96;
 	}
-
+	return letterSum;
 }
