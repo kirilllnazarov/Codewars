@@ -1,3 +1,3 @@
 function evenNumbers(array, number) {
-	return 
+	return array.filter((el) => el % 2 === 0).slice(-number);
 }
