@@ -1,3 +1,4 @@
-function vowelIndices(word){
-
-  }
+function vowelIndices(word) {
+	let resultVovels = [];
+	
+}
