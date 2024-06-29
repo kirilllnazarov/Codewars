@@ -5,5 +5,5 @@ function vowelIndices(word) {
 			resultVovels.push(i + 1);
 		}
 	}
-
+	return resultVovels;
 }
