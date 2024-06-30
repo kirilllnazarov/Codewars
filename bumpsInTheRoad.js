@@ -5,5 +5,6 @@ function bump(x) {
 
 //second solution
 function bump(x) {
+	x = x.replace(/[_]/gi, "").length;
 	
 }
