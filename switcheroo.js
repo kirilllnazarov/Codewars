@@ -11,3 +11,5 @@ function switcheroo(x) {
 	}
 	return result;
 }
+
+//second solution
