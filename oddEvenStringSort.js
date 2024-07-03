@@ -7,5 +7,6 @@ function sortMyString(S) {
 		} else if (i % 2 === 0) {
 			odd += S[i];
 		}
-	
+	}
+	return `${odd} ${even}`;
 }
