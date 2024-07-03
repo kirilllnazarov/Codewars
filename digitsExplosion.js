@@ -4,3 +4,5 @@ function explode(s) {
 		.map((n) => n.repeat(+n))
 		.join("");
 }
+
+//second solution
