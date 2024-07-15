@@ -1,4 +1,6 @@
 function pickIt(arr) {
-	var odd = [],
+	let odd = [];
+	let even = [];
 
+	return [odd, even];
 }
