@@ -1,0 +1,3 @@
+var palindromeChainLength = function (n) {
+
+  };
