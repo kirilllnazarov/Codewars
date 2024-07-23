@@ -32,4 +32,11 @@ class Dog extends Animal {
 		this.status = status;
 		this.legs = 4;
 		this.species = "dog";
-
+	}
+	introduce() {
+		return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+	}
+	greetMaster() {
+		return `Hello ${this.master}`;
+	}
+}
