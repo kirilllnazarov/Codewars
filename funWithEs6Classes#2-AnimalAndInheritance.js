@@ -9,4 +9,17 @@ class Shark extends Animal {
 	}
 }
 
+class Cat extends Animal {
+	constructor(name, age, status) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.status = status;
+		this.legs = 4;
+		this.species = "cat";
+	}
+	introduce() {
+		return `Hello, my name is ${this.name} and I am ${this.age} years old.  Meow meow!`;
+	}
+}
 
