@@ -5,6 +5,10 @@ function solution(start, finish) {
     }
     let now = start;
     let sum = 0;
+    while((finish - now) >= 3) {   
+        now += 3;
+        sum ++;
+    }
 
 }
 
