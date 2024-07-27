@@ -1,0 +1,3 @@
+function areaLargestSquare(r) {
+
+}
