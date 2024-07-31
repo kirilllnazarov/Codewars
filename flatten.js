@@ -1,0 +1,4 @@
+var flatten = function (array){
+
+    
+    }
