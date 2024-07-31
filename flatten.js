@@ -1,4 +1,3 @@
-var flatten = function (array){
-
-    
-    }
+var flatten = function (array) {
+	return [].concat(...array);
+};
