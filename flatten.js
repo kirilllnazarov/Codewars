@@ -3,3 +3,6 @@ var flatten = function (array) {
 };
 
 //second solution
+function flatten(array) {
+	return array.flat();
+}
