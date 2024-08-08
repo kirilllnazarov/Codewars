@@ -1,0 +1,3 @@
+function findDigit(num, nth){
+    
+}
