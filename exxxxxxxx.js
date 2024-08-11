@@ -5,5 +5,5 @@ function sum() {
 		result += arguments[i];
 	}
 
-
+	return result;
 }
