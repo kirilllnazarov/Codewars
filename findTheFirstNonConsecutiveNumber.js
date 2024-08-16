@@ -1,0 +1,3 @@
+function firstNonConsecutive (arr) {
+
+}
