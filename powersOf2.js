@@ -7,3 +7,12 @@ function powersOfTwo(n) {
 }
 
 //second solution
+function powersOfTwo(n) {
+	const result = [];
+	let i = 0;
+	while (i <= n) {
+		result.push(2 ** i);
+		i++;
+	}
+	return result;
+}
