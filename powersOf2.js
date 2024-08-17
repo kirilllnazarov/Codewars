@@ -5,3 +5,5 @@ function powersOfTwo(n) {
 	}
 	return result;
 }
+
+//second solution
