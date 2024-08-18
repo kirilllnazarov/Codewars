@@ -7,7 +7,7 @@ function expressionMatter(a, b, c) {
 
 	let arr = [one, two, three, four, five];
 
-	let sorted = arr.sort((a, b) => b - a);
+	let sortedArr = arr.sort((a, b) => b - a);
 
-	return sorted[0];
+	return sortedArr[0];
 }
