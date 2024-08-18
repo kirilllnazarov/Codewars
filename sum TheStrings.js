@@ -1,0 +1,2 @@
+function sumStr(a, b) {
+ }
