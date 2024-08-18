@@ -9,3 +9,8 @@ function finalGrade(exam, projects) {
 		return 0;
 	}
 }
+
+//second solution
+function finalGrade (exam, projects) {
+ 
+  }
