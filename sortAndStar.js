@@ -1,3 +1,6 @@
 function twoSort(s) {
-return qwe
+return qwerty
 }
+
+
+
