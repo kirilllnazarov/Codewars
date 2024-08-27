@@ -1,3 +1,3 @@
 function twoSort(s) {
-
+return
 }
