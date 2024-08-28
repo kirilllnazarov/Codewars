@@ -1,3 +1,3 @@
 function twoSort(s) {
-    return 
+	return s.sort()[0].split("").join("***");
 }
