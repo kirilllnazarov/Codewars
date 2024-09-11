@@ -1,10 +1,10 @@
 function weatherInfo(temp) {
-	var c = convertToCelsius(temp);
+	let c = convertToCelsius(temp);
 	if (c > 0) return c + " is above freezing temperature";
 	else return c + " is freezing temperature";
 }
 
 function convertToCelsius(temperature) {
-	var celsius = (temperature - 32) * (5 / 9);
+	const celsius = (temperature - 32) * (5 / 9);
 	return celsius;
 }
